@@ -18,3 +18,4 @@ Classify Dermascopic Images of Skin Lesions
 - Evaluate and address racial bias in the algorithm
 
 Dataset is from the ISIC (International Skin Imaging Collaboration) 2019 Challenge
+https://challenge.isic-archive.com/landing/2019
