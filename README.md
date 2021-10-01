@@ -10,3 +10,10 @@ Members:
 ## Background
 
 ## Objective
+
+Classify Dermascopic Images of Skin Lesions 
+
+- Employ basic preprocessing and transfer learning
+- Using the ISIC 2019 challenge dataset
+- Evaluate transferability to lower quality images
+- Evaluate and address racial bias in the algorithm
