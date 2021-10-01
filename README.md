@@ -14,6 +14,7 @@ Members:
 Classify Dermascopic Images of Skin Lesions 
 
 - Employ basic preprocessing and transfer learning
-- Using the ISIC 2019 challenge dataset
 - Evaluate transferability to lower quality images
 - Evaluate and address racial bias in the algorithm
+
+Dataset is from the ISIC (International Skin Imaging Collaboration) 2019 Challenge
