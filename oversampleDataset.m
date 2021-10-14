@@ -28,14 +28,18 @@ function [balImds] = oversampleDataset(imds, targetCountPerLabel)
         if (underRepresented(i))
             replicateSet = subset(imds, (imds.Labels == labelCounts.Label(i)));
 
-            replicationFactor = ceil(targetCountPerLabel/numel(replicateSet.Labels));
+            replicationFactor = -1 + floor(targetCountPerLabel/numel(replicateSet.Labels));
         
 
-            for j = 1:replicationFactor
+            for j = 1:(replicationFactor)
                 balImds_temp = balImds.copy;
                 balImds.Files = cat(1, balImds_temp.Files, replicateSet.Files);
                 balImds.Labels = cat(1, balImds_temp.Labels, replicateSet.Labels);
             end
+            balImds_temp = balImds.copy;
+            replicateSet = subset(replicateSet.copy, 1:mod(targetCountPerLabel,labelCounts.Count(i)));
+            balImds.Files = cat(1, balImds_temp.Files, replicateSet.Files);
+            balImds.Labels = cat(1, balImds_temp.Labels, replicateSet.Labels);
         end
 
     end
