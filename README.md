@@ -20,6 +20,10 @@ Classify Dermascopic Images of Skin Lesions
 Dataset is from the ISIC (International Skin Imaging Collaboration) 2019 Challenge
 https://challenge.isic-archive.com/landing/2019
 
+
+
+Training Data Attributions:
+
 BCN_20000 Dataset: (c) Department of Dermatology, Hospital Clínic de Barcelona
 
 HAM10000 Dataset: (c) by ViDIR Group, Department of Dermatology, Medical University of Vienna; https://doi.org/10.1038/sdata.2018.161
