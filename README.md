@@ -19,6 +19,7 @@ Dataset is from the ISIC (International Skin Imaging Collaboration) 2019 Challen
 https://challenge.isic-archive.com/landing/2019
 
 ## Instructions
+To classify a single image with our trained model, run classify_image.m .
 
 To train and evaluate a normal image classification model, open main.mlx and run each section. 
 
