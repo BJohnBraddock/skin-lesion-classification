@@ -7,21 +7,27 @@ Members:
 - Wilson Huang
 - Julie Vu
 
-## Background
-
 ## Objective
 
 Classify Dermascopic Images of Skin Lesions 
 
 - Employ basic preprocessing and transfer learning
-- Evaluate transferability to lower quality images
-- Evaluate and address racial bias in the algorithm
+- Visualize classification model with Occlusion Sensitivity
+- Integrate metadata features into image classification CNN architecture
 
 Dataset is from the ISIC (International Skin Imaging Collaboration) 2019 Challenge
 https://challenge.isic-archive.com/landing/2019
 
+## Instructions
+
+To train and evaluate a normal image classification model, open main.mlx and run each section. 
+
+To train and evalute an image classification model with metadata, open train_with_metadata.mlx and run each section. 
+
+If you don't wish to train the model, we have provided pretrained models. Simply load them into the MATLAB workspace instead of running the model training sections. Dataset splitting is not randomized, so the models will not be evaluating training data. 
 
 
+## References
 Training Data Attributions:
 
 BCN_20000 Dataset: (c) Department of Dermatology, Hospital Clínic de Barcelona
