@@ -1,4 +1,4 @@
-# bme3053c-team-project
+# skin-lesion-classificaiton || bme3053c-team-project
 ***Triple Js + Wilson*** group final project for **BME3053C** : Computer Applications for BME at the University of Florida
 
 Members: 
